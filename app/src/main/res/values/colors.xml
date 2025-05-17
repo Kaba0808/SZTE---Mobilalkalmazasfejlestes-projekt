@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="bluePrimary">#2196F3</color>
+    <color name="bluePrimaryDark">#1976D2</color>
+    <color name="blueAccent">#03A9F4</color>
+    <color name="blueGray">#607D8B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark_color">#1976D2</color>
+    <color name="accent_color">#FF4081</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="card_background_color">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_accent">#FF4081</color>
+    <color name="button_primary">#2196F3</color>
+    <color name="button_secondary">#8BC34A</color>
+    <color name="button_disabled">#BDBDBD</color>
+    <color name="error_color">#D32F2F</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="light_blue">#64B5F6</color>
+    <color name="dark_blue">#1976D2</color>
+    <color name="light_green">#81C784</color>
+    <color name="dark_green">#388E3C</color>
+    <color name="light_red">#E57373</color>
+    <color name="dark_red">#D32F2F</color>
+    <color name="transparent_black">#80000000</color>
+    <color name="transparent_white">#80FFFFFF</color>
+
+    <!-- Tengerész kék és korall árnyalatok -->
+    <color name="navy_blue">#1D3557</color>
+    <color name="coral">#FF6F61</color>
+    <color name="light_coral">#FF9F8A</color>
+    <color name="sky_blue">#4BA3C7</color>
+    <color name="sand">#D8D8D8</color>
+    <color name="cream">#FFF8E1</color>
+    <color name="light_gray">#B0B0B0</color>
+
+    <!-- Trópusi naplemente színek -->
+    <color name="sunset_orange">#FF4F00</color>
+    <color name="sunset_yellow">#FFB400</color>
+    <color name="sky_blue1">#00B0FF</color>
+    <color name="dark_blue1">#004BA0</color>
+    <color name="pale_pink">#F0A1C2</color>
+    <color name="light_peach">#F7D6C1</color>
+    <color name="dark_brown">#5B3A29</color>
+
+    <!-- Modern Monochrome színek -->
+    <color name="dark_gray">#212121</color>
+    <color name="medium_gray">#757575</color>
+    <color name="light_gray2">#BDBDBD</color>
+    <color name="almost_white">#F5F5F5</color>
+    <color name="pure_white">#FFFFFF</color>
+    <color name="charcoal">#424242</color>
+
+    <!-- Föld színei -->
+    <color name="earth_brown">#6E4B3A</color>
+    <color name="forest_green">#2C6E49</color>
+    <color name="dusty_beige">#D1C6B1</color>
+    <color name="clay_red">#9E2A2B</color>
+    <color name="sage_green">#A6B89D</color>
+    <color name="soft_cream">#F4E1D2</color>
+    <color name="charcoal_gray">#3A3A3A</color>
+
+    <!-- Pasztell álmok -->
+    <color name="baby_blue">#A7C7E7</color>
+    <color name="mint_green">#A8E6CF</color>
+    <color name="soft_pink">#F8C8DC</color>
+    <color name="lavender">#D1A7F5</color>
+    <color name="peach_pink">#FFB3AB</color>
+    <color name="light_yellow">#FFF0B3</color>
+    <color name="powder_blue">#B0C7D8</color>
+
+    <!-- Bátor és élénk színek -->
+    <color name="electric_blue">#00BFFF</color>
+    <color name="vivid_orange">#FF5722</color>
+    <color name="vivid_green">#4CAF50</color>
+    <color name="bright_yellow">#FFEB3B</color>
+    <color name="fuchsia">#D500F9</color>
+    <color name="lime_green">#CDDC39</color>
+    <color name="cyan">#00BCD4</color>
+
+    <!-- Puha semlegesek -->
+    <color name="warm_beige">#D7CCC8</color>
+    <color name="light_taupe">#A88D7B</color>
+    <color name="dusty_rose">#F1C6C4</color>
+    <color name="grayish_brown">#6E4F31</color>
+    <color name="soft_white">#F9F9F9</color>
+    <color name="stone_gray">#9E9E9E</color>
+    <color name="creamy_white">#F5F5F5</color>
+
+    <!-- Éjszakai égbolt színei -->
+    <color name="midnight_blue">#003366</color>
+    <color name="star_white">#F5F5F5</color>
+    <color name="moon_gray">#B4B8BB</color>
+    <color name="twilight_purple">#8A2BE2</color>
+    <color name="deep_black">#000000</color>
+    <color name="neon_pink">#FF0080</color>
+    <color name="dusk_red">#9B1B30</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

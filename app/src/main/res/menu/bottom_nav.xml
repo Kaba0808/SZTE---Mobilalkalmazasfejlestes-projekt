@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom_home"
+    android:title="Főoldal"
+    android:icon="@drawable/home_logo"/>
+
+    <item android:id="@+id/bottom_cart"
+        android:title="Kosár"
+        android:icon="@drawable/cart_logo"/>
+
+    <item android:id="@+id/bottom_myticket"
+        android:title="Jegyeim"
+        android:icon="@drawable/ticket_logo"/>
+
+    <item android:id="@+id/bottom_profile"
+        android:title="Profil"
+        android:icon="@drawable/profile_logo"/>
+</menu>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Toolbar -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/sunset_orange"
+            android:titleTextColor="@android:color/white"/>
+
+        <!-- Felhasználó neve -->
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <!-- Felhasználó email címe -->
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/profileEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_text"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <!-- Telefon -->
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/profilePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <!-- Cím -->
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/profileAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <!-- Születési dátum -->
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/profileBirthDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birthdate"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <!-- Felhasználónév -->
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/profileUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <!-- Telefon szerkesztése -->
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/profilePhoneEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/phone_number"
+            android:visibility="gone"
+            android:inputType="phone"/>
+
+        <!-- Cím szerkesztése -->
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/profileAddressEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/address"
+            android:visibility="gone"
+            android:inputType="text"/>
+
+        <!-- Születési dátum szerkesztése -->
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/profileBirthDateEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/birthdate"
+            android:visibility="gone"
+            android:inputType="date"
+            android:focusable="false"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget" />
+
+        <!-- Felhasználónév szerkesztése -->
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/profileUsernameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/username"
+            android:visibility="gone"
+            android:inputType="text"/>
+
+        <!-- Mentés gomb -->
+        <Button
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:visibility="gone"/>
+
+        <!-- Regisztrációs gomb -->
+        <Button
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Registration"
+            android:visibility="gone"/>
+        <Button
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:onClick="logout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</ScrollView>

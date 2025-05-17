@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "990697271233",
+    "firebase_url": "https://museum-mobilalkfelj-default-rtdb.firebaseio.com",
+    "project_id": "museum-mobilalkfelj",
+    "storage_bucket": "museum-mobilalkfelj.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990697271233:android:0f9a774b1eff4a67f0c940",
+        "android_client_info": {
+          "package_name": "com.example.museum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990697271233-sqn9fb4j143rkd65lsfs5nuq1jjr30r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.museum",
+            "certificate_hash": "84c23b73605bdc5d9cf70769913ce0f1129fcb78"
+          }
+        },
+        {
+          "client_id": "990697271233-9eqnpe17q58fg6rmsprp9pkc1ahdcr0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoLn_B2p13sFiCSlLYN_X982nU0rqy4vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990697271233-9eqnpe17q58fg6rmsprp9pkc1ahdcr0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

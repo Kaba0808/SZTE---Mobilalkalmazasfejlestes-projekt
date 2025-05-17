@@ -1,0 +1,76 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.example.museum'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.museum"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+        //noinspection UseTomlInstead
+        implementation 'androidx.constraintlayout:constraintlayout'
+        //noinspection UseTomlInstead
+        implementation 'org.mindrot:jbcrypt:0.4'
+        //noinspection UseTomlInstead
+        implementation 'androidx.appcompat:appcompat:1.7.0'
+        //noinspection UseTomlInstead
+        implementation 'com.google.android.material:material:1.12.0'
+
+        // Firebase BOM
+        //noinspection UseTomlInstead
+        implementation platform('com.google.firebase:firebase-bom:33.13.0')
+
+        // Firebase Authentication Fire store
+        //noinspection UseTomlInstead
+        implementation 'com.google.firebase:firebase-auth'
+        //noinspection UseTomlInstead
+        implementation 'com.google.firebase:firebase-firestore:25.1.4'
+        //noinspection UseTomlInstead
+        implementation 'com.google.firebase:firebase-storage'
+        //noinspection UseTomlInstead
+        implementation 'com.google.firebase:firebase-analytics'
+
+        // Google Play Services Authentication
+        //noinspection UseTomlInstead
+        implementation 'com.google.android.gms:play-services-auth:21.3.0'
+        implementation libs.credentials
+        implementation libs.credentials.play.services.auth
+        implementation libs.googleid
+
+        //noinspection UseTomlInstead
+        testImplementation 'junit:junit:4.13.2'
+        //noinspection UseTomlInstead
+        androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+        //noinspection UseTomlInstead
+        androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+
+        //noinspection UseTomlInstead
+        implementation 'androidx.appcompat:appcompat:1.7.0'
+        //noinspection UseTomlInstead
+        implementation 'com.google.android.gms:play-services-location:21.3.0'
+        //noinspection UseTomlInstead
+        implementation 'androidx.core:core:1.16.0'
+}

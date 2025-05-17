@@ -1,0 +1,60 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:strokeColor="@color/bluePrimary"
+    app:strokeWidth="1dp"
+    android:backgroundTint="@android:color/white"> <!-- Beállított háttérszín -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Jegytípus -->
+        <TextView
+            android:id="@+id/ticketType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Típus"
+            android:textStyle="bold"
+            android:textColor="@color/sunset_orange"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Jegy mennyiség -->
+        <TextView
+            android:id="@+id/ticketQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mennyiség"
+            android:textColor="@color/blueGray"
+            android:textSize="14sp"
+            android:paddingTop="4dp"/>
+
+        <!-- Jegy összes ára -->
+        <TextView
+            android:id="@+id/ticketTotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Összesen"
+            android:textStyle="bold"
+            android:textColor="@color/blueAccent"
+            android:textSize="14sp"
+            android:paddingTop="4dp"/>
+
+        <!-- Leírás (ha van) -->
+        <TextView
+            android:id="@+id/ticketDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leírás"
+            android:textColor="@color/blueGray"
+            android:textSize="14sp"
+            android:paddingTop="4dp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

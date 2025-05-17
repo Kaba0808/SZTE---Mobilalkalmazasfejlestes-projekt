@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- Kosár Toolbar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/sunset_orange"
+        android:title="@string/cart"
+        android:titleTextColor="@android:color/white"/>
+
+    <!-- Kosár tartalmának RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"/>
+
+    <!-- Kosár összegzése -->
+    <TextView
+        android:paddingStart="10dp"
+        android:id="@+id/cartTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/all_price"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <!-- Fizetési gomb -->
+    <Button
+        android:layout_margin="16dp"
+        android:id="@+id/paymentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pay"
+        android:background="@drawable/rounded_button"
+        android:enabled="false"/>
+</LinearLayout>
