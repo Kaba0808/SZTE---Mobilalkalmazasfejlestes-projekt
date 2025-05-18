@@ -67,8 +67,7 @@ dependencies {
         //noinspection UseTomlInstead
         androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 
-        //noinspection UseTomlInstead
-        implementation 'androidx.appcompat:appcompat:1.7.0'
+        implementation libs.appcompat
         //noinspection UseTomlInstead
         implementation 'com.google.android.gms:play-services-location:21.3.0'
         //noinspection UseTomlInstead
